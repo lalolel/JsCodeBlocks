@@ -3,8 +3,6 @@ Variable randomNumber = Math.floor(Math.random() * 8) uses 2 methods from the Ma
 
 If the randomNumber is 0, then save an answer to the eightBall variable; if randomNumber is 1, then save the next answer, and so on.
 
-
-
 */
 
 
