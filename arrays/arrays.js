@@ -22,3 +22,5 @@ secretMessage.splice(6, 5, "know, ");
 console.log(secretMessage);
 // On one line, use console.log() and .join() to print the secret message as a sentence.
 console.log(secretMessage.join(" "));
+
+// After all this prints: Programming is not about what you know,  it is about what you can figure out. -2015, Chris Pine, Learn to Program
