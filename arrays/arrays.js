@@ -18,6 +18,7 @@ console.log(secretMessage);
 secretMessage.unshift("Programming");
 console.log(secretMessage);
 //Use an array method to remove the strings get, right, the, first, time,, and replace them with the single string know,.
+// array.splice(indexToStart, numberOfIndices, 'stringToAdd');
 secretMessage.splice(6, 5, "know, ");
 console.log(secretMessage);
 // On one line, use console.log() and .join() to print the secret message as a sentence.
