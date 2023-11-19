@@ -51,6 +51,7 @@ let lengthCheck = storyWords.every((word) => {
 console.log(lengthCheck);
 
 // check which word has more than 10 letters
+// A couple options that can be used to access the element are .filter() and .forEach().
 storyWords.forEach((word) => {
   word.length > 10 && console.log(word);
 });
